@@ -85,6 +85,8 @@ let g:airline_symbols.linenr = ''
 "mappings
 
 map <C-n> :NERDTreeToggle<CR>
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
 
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
